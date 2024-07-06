@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#left{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #97B9C4;
+    clip-path: polygon(0 0, 60% 0, 40% 100%, 0 100% )
+}
+#right{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color:#F1E5E5;
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100% )
+}
